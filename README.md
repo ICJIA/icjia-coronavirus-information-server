@@ -4,7 +4,7 @@
 
 ## URL
 
-https://icjia.illinois.gov/coronavirus
+https://coronavirus.icjia-api.cloud
 
 ## Development
 
@@ -14,5 +14,5 @@ npm run dev
 
 ## Routes
 
-- `/`: latest state coronavirus information
+- `/`: latest State of Illinois coronavirus information
 - `/healthcheck`: server status
