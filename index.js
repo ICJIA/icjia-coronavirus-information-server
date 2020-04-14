@@ -1,5 +1,5 @@
 require("dotenv").config();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3030;
 const express = require("express");
 const bodyParser = require("body-parser");
 const multer = require("multer");
@@ -16,7 +16,7 @@ app.use(cors());
 
 const content = {
   html: `<i aria-hidden="true" class="v-icon notranslate material-icons theme--light red--text">error</i>
-    View up to date information on how Illinois is handling the Coronavirus Disease 2019 (COVID-19) from the <a href="http://www.dph.illinois.gov/topics-services/diseases-and-conditions/diseases-a-z-list/coronavirus" style="text-decoration: underline;">Illinois Department of Public Health</a>
+    View up to date information on how Illinois is handling the Coronavirus Disease 2019 (COVID-19) from the <a href="https://coronavirus.illinois.gov" target="_blank" style="text-decoration: underline;">State of Illinois Coronavirus Response Site</a>
     `
 };
 
