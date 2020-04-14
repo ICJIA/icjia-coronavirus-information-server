@@ -21,7 +21,7 @@ const content = {
 };
 
 const contentV2 = {
-  html: `<v-alert icon="mdi-alert" border="left" prominent dense text dismissible color="info" class="px-6 py-4">
+  html: `
       <div class="pl-3" style="color: #444">
         View up to date information on how Illinois is handling the Coronavirus Disease 2019 (COVID-19) from the <a
           href="https://coronavirus.illinois.gov"
@@ -38,7 +38,7 @@ const contentV2 = {
           >ICJIA's COVID-19 Response page</a
         > for the latest grant and fiscal notifications, resources, and more.
       </div>
-    </v-alert>`,
+   `,
 };
 
 app.get("/", (req, res) => res.send(content));
